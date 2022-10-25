@@ -9,6 +9,8 @@ Licenc: GNU GPL
 */
 
 
-public class Nev {
-    
+import java.util.ArrayList;
+
+public interface Nev {
+    public ArrayList<String> getNames();
 }
